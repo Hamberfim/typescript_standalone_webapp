@@ -38,8 +38,10 @@ module.exports = {
 };
 ```
 
-8. new folder in root dir 'assets'
-9. new file in assets dir 'index.html
+8. run 'npx webpack'
+9. run 'node dist/bundle.js'
+10. new folder in root dir 'assets'
+11. new file in assets dir 'index.html
 
 ```
 <!DOCTYPE html>
@@ -56,4 +58,4 @@ module.exports = {
 </html>
 ```
 
-10. run 'npx webpack serve'
+12. run 'npx webpack serve'
