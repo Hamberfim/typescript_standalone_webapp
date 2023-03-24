@@ -15,11 +15,11 @@
 }
 ```
 
-create a 'src' folder in the root dir and add a index.ts to it with a console.log("some message)
+4. create a 'src' folder in the root dir and add a index.ts to it with a console.log("some message)
 
-4. npm i -D typescript webpack webpack-cli ts-loader
-5. npm i -D webpack-dev-server
-6. new file in root dir 'webpack.config.js'
+5. npm i -D typescript webpack webpack-cli ts-loader
+6. npm i -D webpack-dev-server
+7. new file in root dir 'webpack.config.js'
 
 ```
 module.exports = {
@@ -38,8 +38,8 @@ module.exports = {
 };
 ```
 
-7. new folder in root dir 'assets'
-8. new file in assets dir 'index.html
+8. new folder in root dir 'assets'
+9. new file in assets dir 'index.html
 
 ```
 <!DOCTYPE html>
@@ -56,4 +56,4 @@ module.exports = {
 </html>
 ```
 
-9. run 'npx webpack serve'
+10. run 'npx webpack serve'
