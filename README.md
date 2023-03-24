@@ -1,3 +1,1 @@
-## A Web App
-
-Toolchain creation
+## A Stand-Alone Typescript Web App
