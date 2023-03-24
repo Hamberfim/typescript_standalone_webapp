@@ -15,6 +15,8 @@
 }
 ```
 
+create a 'src' folder in the root dir and add a index.ts to it with a console.log("some message)
+
 4. npm i -D typescript webpack webpack-cli ts-loader
 5. npm i -D webpack-dev-server
 6. new file in root dir 'webpack.config.js'
