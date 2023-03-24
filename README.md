@@ -4,7 +4,7 @@
 
 1. npm init -y
 2. npm i -D typescript
-3. npx tsc --init to create 'tsconfig.json' in root dir with minimum config setting below
+3. npx tsc --init to create 'tsconfig.json' in root dir with minimum config settings below
 
 ```{
 "compilerOptions": {
@@ -19,7 +19,7 @@
 
 5. npm i -D typescript webpack webpack-cli ts-loader
 6. npm i -D webpack-dev-server
-7. new file in root dir 'webpack.config.js' with minimum config setting below
+7. new file in root dir 'webpack.config.js' with minimum config settings below
 
 ```
 module.exports = {
