@@ -4,7 +4,7 @@
 
 1. npm init -y
 2. npm i -D typescript
-3. npx tsc --init to create 'tsconfig.json' in root dir
+3. npx tsc --init to create 'tsconfig.json' in root dir with minimum config setting below
 
 ```{
 "compilerOptions": {
@@ -19,7 +19,7 @@
 
 5. npm i -D typescript webpack webpack-cli ts-loader
 6. npm i -D webpack-dev-server
-7. new file in root dir 'webpack.config.js'
+7. new file in root dir 'webpack.config.js' with minimum config setting below
 
 ```
 module.exports = {
@@ -41,7 +41,7 @@ module.exports = {
 8. run 'npx webpack'
 9. run 'node dist/bundle.js'
 10. new folder in root dir 'assets'
-11. new file in assets dir 'index.html
+11. new file in assets dir 'index.html with minimum code below
 
 ```
 <!DOCTYPE html>
